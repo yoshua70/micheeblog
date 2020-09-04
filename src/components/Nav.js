@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import './../styles/Nav.css';
+
 export default class Nav extends React.Component {
   render() {
     return (
