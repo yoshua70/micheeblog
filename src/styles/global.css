@@ -24,19 +24,26 @@ h1 {
   font-size: 2.4rem;
 }
 
+.h1--lead {
+  font-size: 5rem;
+}
+
 #___gatsby, #gatsby-focus-wrapper {
   height: 100%;
 }
 
 .application {
-  flex-direction: column;
   align-items: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100%;
   margin: 0 auto;
   max-width: 90rem;
 }
 
-.wrapper {
-  display: flex;
-  justify-content: space-between;
+.content {
+  background-color: lightsalmon;
+  flex: 1;
+  padding: 1.5rem 1rem;
 }

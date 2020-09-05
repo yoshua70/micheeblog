@@ -6,7 +6,7 @@ import './../styles/Nav.css';
 export default class Nav extends React.Component {
   render() {
     return (
-      <nav className="nav wrapper">
+      <nav className="nav">
         <Link to="/" className="nav__link">Accueil</Link>
         <Link to="/about" className="nav__link">A propos</Link>
         <Link to="/projects" className="nav__link">Projects</Link>
