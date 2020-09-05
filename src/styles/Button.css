@@ -1,0 +1,11 @@
+.button {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.button__link {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
